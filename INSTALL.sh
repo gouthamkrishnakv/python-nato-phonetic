@@ -1,6 +1,6 @@
 if hash virtualenv 2> /dev/null; then
     echo 'Creating virtual environment'
-    virtualenv -p python3
+    virtualenv -p python3 .
 else
     echo `virtualenv tool does not exist. Installing as ${USER}`
     pip install -v virtualenv
