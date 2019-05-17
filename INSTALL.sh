@@ -6,4 +6,5 @@ else
     pip install -v virtualenv
     virtualenv -p python3 .
 fi
-source ./bin/activate 'pip install -r requirements.txt'
+source ./bin/activate
+pip install -r requirements.txt
