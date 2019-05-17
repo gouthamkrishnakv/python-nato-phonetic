@@ -1,4 +1,4 @@
-#! /bin/python3
+#! ../bin/python3
 import sys, subprocess, getpass, linecache, pip, os
 def install(package):
     if hasattr(pip, 'main'):
