@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "${workspaceFolder}/bin/python3",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.launchArgs": ["src/main.py"],
+    "python.terminal.executeInFileDir": true
+}
