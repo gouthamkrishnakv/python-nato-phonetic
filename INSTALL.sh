@@ -7,4 +7,5 @@ else
     virtualenv -p python3 .
 fi
 source ./bin/activate
+echo "Project install completed. To run program, execute python src/main.py"
 pip install -r requirements.txt
